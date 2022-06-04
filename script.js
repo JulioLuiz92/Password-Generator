@@ -173,7 +173,6 @@ function createPassword(length, useUpper, useLower, useNumbers, useSymbols)
   var symbols = ["!", "#", "$", "&", "%", "'", "(", ")", "*", "+", "-", "/", ":", ";", "<", "=", ">", "?", "@", "^", "_", "~", "`", "{", "|", "}", "."];
 
   var password = [];
-console.log("array vazio: " + password);
   if (useUpper)
   {
    password = password.concat(uppercase);
